@@ -1,16 +1,31 @@
+//Git Init
+
 see overview >> git status
 
-initailize >> git init
+1.initailize >> git init
+
+2. git config --global user.name "mehe"
+3. git config --global user.email "mehe@gmail.com"
 
 see configaration >> git config --list
+--------------------------------------------------
+// Add & Commit
 
-set user >> git config user.name "mehedi"
-set email >> git config user.email "mehedi@gmail.com"
+3. new file create korle git a add korte hobe >> git add .
+
+4. all file send to git >> git commit -m "message of commit"
 
 
-If i set globally user & email then
-git config --global user.name "mehe"
+see all commit >> git log --oneline or ( git log)
 
-git config --global user.email "mehe@gmail.com"
+
+Jodi kono commit a firee jabo >> git checkout id(commit)
+
+current position a aste hole >> git switch -
+
+// Git ignore
+
+jodi kono file igonre korte chai tahole main directory te ekta file create korte hobe .gitignore file and file ta open kore ingore file er nam likhte hobe then modify .gitignore file ta modify korlam tar jonno add and commit korte hobe 
+
 
 
