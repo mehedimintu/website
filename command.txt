@@ -1,0 +1,16 @@
+see overview >> git status
+
+initailize >> git init
+
+see configaration >> git config --list
+
+set user >> git config user.name "mehedi"
+set email >> git config user.email "mehedi@gmail.com"
+
+
+If i set globally user & email then
+git config --global user.name "mehe"
+
+git config --global user.email "mehe@gmail.com"
+
+
